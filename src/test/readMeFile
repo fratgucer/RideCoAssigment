@@ -1,0 +1,43 @@
+First of all, I thought about testing with API, but since I didn't have path and query parameters,
+I didn't want to do the wrong test so I tested it with the user interface.
+
+Then I create 3 different test cases for input 1,10,15. When I send input 1 it sends a different number every time that's
+the bug that I found. The number should be unique and the same. For other test cases (10,15) it throws the same unique number
+every time. I checked with expected and actual results and the expected result contained actual results that's why
+we do not have any problem relating to these numbers.
+
+I used TestNG but I can do that with Cucumber it will work properly too.
+
+If you want me to do with API I can do that too but I need more information.
+
+And I got the report with Extend Report I will add the result to the email. Extend Reports helps us to understand
+everything with graphs.
+
+Bug Ticket:
+
+Bug ID: 001
+Bug Name: Unexpected Output
+
+Summary: Expected output doesn't contains actual output
+
+Operating System: Windows
+
+Browser: Chrome
+
+URL: http://qascreener.rideco.com:8080/
+
+Description: Expected output is "3243625888179112696126389" for input 1, but we I passed input 1
+             the output was "22405294343576672683172001266882902460966187151431".
+
+Expected output: "3243625888179112696126389"
+
+Actual output: "22405294343576672683172001266882902460966187151431"
+
+Screenshot: I will attach screenshot to the email
+
+Notes: Severity is high and priority is high...
+
+
+
+
+
